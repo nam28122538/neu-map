@@ -14,6 +14,7 @@
 		08EA3D701D1B955700E18F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EA3D6E1D1B955700E18F73 /* LaunchScreen.storyboard */; };
 		08EA3D7B1D1B955700E18F73 /* Neu_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3D7A1D1B955700E18F73 /* Neu_MapTests.swift */; };
 		08EA3D861D1B955700E18F73 /* Neu_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3D851D1B955700E18F73 /* Neu_MapUITests.swift */; };
+		08EA3D941D1B966700E18F73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA3D931D1B966700E18F73 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08EA3D811D1B955700E18F73 /* Neu MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neu MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EA3D851D1B955700E18F73 /* Neu_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neu_MapUITests.swift; sourceTree = "<group>"; };
 		08EA3D871D1B955700E18F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EA3D931D1B966700E18F73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EA3D941D1B966700E18F73 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		08EA3D591D1B955700E18F73 = {
 			isa = PBXGroup;
 			children = (
+				08EA3D931D1B966700E18F73 /* MapKit.framework */,
 				08EA3D641D1B955700E18F73 /* Neu Map */,
 				08EA3D791D1B955700E18F73 /* Neu MapTests */,
 				08EA3D841D1B955700E18F73 /* Neu MapUITests */,
